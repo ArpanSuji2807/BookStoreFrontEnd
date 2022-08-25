@@ -1,0 +1,95 @@
+.orderwholepage{
+    height: 99.8vh;
+    width: 99.8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orderplacepage{
+    height: 100%;
+    width: 72%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.orderImage{
+    height: 40%;
+    width: 45%;
+}
+.orderimage{
+    height: 90%;
+    width: 75%;
+}
+.ordermessage{
+    width: 50%;
+    height: 12%;
+}
+.contactdetails{
+    height: 20%;
+    width: 80%;
+    border: 1px solid #E4E4E4;
+}
+.contactheader{
+    width: 100%;
+    height: 25%;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+}
+.contactNumber,
+.contactemail{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactAddress{
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.contactcontent{
+    width: 100%;
+    height: 74%;
+    display: flex;
+    flex-direction: row;
+}
+.numbercontent,
+.emailcontent{
+    height: 100%;
+    width: 29.9%;
+    border: 1px solid #E4E4E4;
+    align-items: center;
+    justify-content: center;
+    font-size:smaller;
+}
+.addresscontent{
+    height: 100%;
+    width: 40%;
+    border: 1px solid #E4E4E4;
+    align-items: center;
+    justify-content: center;
+    font-size:smaller;
+    flex-wrap: wrap;
+}
+.shopping-button{
+    height: 5%;
+    width: 22%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .orderplacepage{
+        width: 100%;
+    }
+    .orderImage{
+        width: 85%;
+    }
+    .contactdetails{
+        width: 95%;
+    }
+    .shopping-button{
+        width: 100%;
+    }
+}

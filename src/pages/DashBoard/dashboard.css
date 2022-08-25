@@ -1,0 +1,25 @@
+.wholeDashboardPage{
+    min-height: 99.8vh;
+    width: 99.8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pageHome{
+    height: 86%;
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.wishListWholePage,
+.mycart-whole-page{
+    min-height: 82%;
+    width: 72%;
+}
+.order-place-whole-page{
+    margin-top: 2%;
+    min-height: 82%;
+    width: 55%;
+    
+}

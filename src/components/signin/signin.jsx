@@ -3,12 +3,16 @@ import './signin.css'
 import { TextField, Button } from '@mui/material';
 import Divider from '@mui/material/Divider'
 import { UserSignIn } from "../../services/userservice";
+import { useNavigate } from "react-router-dom";
+
 const EmailRegex = /^[a-zA-Z]+[a-zA-Z0-9]*[- . + _]?[a-zA-Z0-9]+[@]{1}[a-z0-9]+[.]{1}[a-z]+[.]?[a-z]+$/
 const PasswordRegex = /^(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%^&-+=()])([a-zA-Z0-9]*).{8,}$/
+
 
 export const SignIn = (props) =>{
 
     const[regexLoginObj,setRegexLoginObj] = React.useState({EmailError:false,EmailHelperText:'',PasswordError:false,PasswordHelperText:''})
+    const navigate = useNavigate();
     const[signInObj,setSignInObj] = React.useState({email:'',password:''})
 
     const switchForm = () =>{
@@ -44,6 +48,7 @@ export const SignIn = (props) =>{
             UserSignIn(signInObj).then((res) =>{
                 console.log(res);
                 localStorage.setItem('token',res.data.data)
+                navigate('/Dashboard')
             }).catch((error) =>{
                 console.log(error)
             })

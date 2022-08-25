@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { Usercredentials } from './pages/UserCredentials/usercredentials';
+import Router from './router/router';
 
 function App() {
   return (
     <div className="App">
-      <Usercredentials/>
+      <Router/>
     </div>
   );
 }

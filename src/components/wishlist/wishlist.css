@@ -1,0 +1,119 @@
+.wishListPage{
+    height: 100%;
+    width: 72%;
+}
+.wishlistwholepage{
+    height: 99.8vh;
+    width: 99.8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.wishListHeader{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.wishListContent{
+    height: 70%;
+    width: 100%;
+    border: 1px solid #E4E4E4;
+}
+.contentHeader{
+    height: 10%;
+    width: 98.8%;
+    background-color:#F5F5F5;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    padding:8px;
+}
+.section2,
+.section1{
+    height: 42%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E4E4E4;
+}
+.section2a,
+.section1a{
+    height: 60%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+.section2b,
+.section1b{
+    height: 100%;
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bookImage2,
+.bookImage1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bookImg2,
+#bookImg{
+    height: 100%;
+    width: 100%;
+}
+
+.bookContent2,
+.bookContent{
+    height: 90%;
+    width: 68%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.bookTitle2,
+.bookTitle{
+    font-size: large;
+    font-weight: 600;
+}
+.bookTitle2{
+    margin-left: 5%;
+}
+.bookAuthor2,
+.bookAuthor{
+    font-size: small;
+    margin-left: 7%;
+}
+.bookPrice2,
+.bookPrice{
+    font-size: large;
+    font-weight: 500;
+    margin-left: 7%;
+
+}
+.section2c,
+.section1c{
+    height: 20%;
+    width: 71%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .section1b{
+        width: 100%;
+    }
+    .bookContent{
+        width: 100%;
+    }
+    .bookImage1{
+        height: 80%;
+        width: 85%;
+    }
+}

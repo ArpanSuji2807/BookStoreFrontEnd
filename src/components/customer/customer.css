@@ -1,0 +1,85 @@
+.customer-whole-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFF;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 8%);
+}
+.customercontent{
+    height: 93%;
+    width: 90%;
+    justify-content: space-evenly;
+}
+.customerHeader{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.customerHeader1{
+    font-size: large;
+    font-weight: 500;
+}
+.customerHeader2{
+    height: 85%;
+    width: 20%;
+    border: 2px solid orangered;
+    font-size: small;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orangered;
+}
+.customerInput{
+    height: 80%;
+    width: 70%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.nameInput{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.cityInput{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.type{
+    margin-left: 3%;
+    height: 4%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+.labels{
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-evenly;
+    margin-top: -6%;
+}
+.continue{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .customerInput{
+        width: 100%;
+    }
+}

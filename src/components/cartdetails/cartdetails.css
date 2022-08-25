@@ -1,0 +1,120 @@
+.cartdetails{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartdetails1{
+    height: 105%;
+    width: 90%;
+    border: 1px solid #FFFF;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 8%);
+}
+.cartdetailsHeader{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cartdetailsHeader1{
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+.cartdetailsHeader2{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #FFFF;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 8%);
+}
+.cartsection1{
+    height:62%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.booksection{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bookContent{
+    height: 100%;
+    width: 60%;
+}
+.bookContent1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bookIncrement{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.bookIncrement1{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bookHeading,
+.bookPrice{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight:500;
+
+}
+.bookAuthor{
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+}
+.quantityBox{
+    height: 55%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.remove{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+.PlaceOrder{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .cartdetails{
+        width: 100%;
+    }  
+    .cartsection1{
+        width: 85%;
+        margin-top: 2%;
+    }
+    .cartdetailsHeader2{
+        display: none;
+    }
+}
+   
